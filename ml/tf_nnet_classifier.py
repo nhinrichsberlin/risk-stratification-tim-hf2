@@ -24,7 +24,7 @@ from ml.tf_utils import make_keras_picklable, TFRandomState
 # ensures that we can save and load keras model to/from pickle files
 make_keras_picklable()
 
-LOGGER = custom_logger('utilities/ml/nnet_classifier.py')
+LOGGER = custom_logger('NNetClassifier')
 
 
 class NNetClassifier(BaseEstimator, ABC):
