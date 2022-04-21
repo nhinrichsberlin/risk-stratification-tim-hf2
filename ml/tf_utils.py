@@ -16,7 +16,7 @@ from tensorflow.python.keras.saving import saving_utils
 class TFRandomState:
     """
     This will allow us to create reproducible results with keras models.
-    Stolen from the scikeras package. Copied so as not to make the entire
+    Copied from the scikeras package so as not to make the entire
     package a dependency. Source:
     https://github.com/adriangb/scikeras/blob/1283e87f70367722feb4f95949e7e85611f61dbd/scikeras/_utils.py
     """
